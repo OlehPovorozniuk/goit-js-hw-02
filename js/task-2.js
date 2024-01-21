@@ -6,7 +6,7 @@ function formatMessage(message, maxLength){
         
     }else if(number > maxLength){
         const result = message.slice(0, maxLength);
-        return `${result}"..."`;
+        return `${result} ...`;
     }
 }
 console.log(formatMessage("Curabitur ligula sapien", 16));
